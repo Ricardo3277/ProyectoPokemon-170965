@@ -1,7 +1,6 @@
 import React from "react";
 //import FavoriteContext from "../contexts/favoritesContext";
 
-const { useContext } = React;
 
 const Navbar = () => {
   //const { favoritePokemons } = useContext(FavoriteContext);
