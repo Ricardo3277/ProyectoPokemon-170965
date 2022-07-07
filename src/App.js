@@ -43,11 +43,12 @@ export default function App() {
   useEffect(() => {
     loadFavoritePokemons();
   }, []);
-
+  // eslint-disable-next-line
   useEffect(() => {
     if (!searching) {
       fetchPokemons();
     }
+    // eslint-disable-next-line
   }, [page]);
 
   const updateFavoritePokemons = (name) => {
