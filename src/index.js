@@ -1,14 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Pokemon from './components/Pokemon';
+import Perfil from './components/Perfil';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <div className='center-a center-b'>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<App/>}/>
+          <Route path='/pokemon/:id' element={<Pokemon/>} />
+          <Route path='/170965' element={<Perfil/>} />
+        </Routes>
+      </BrowserRouter>
+    </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
