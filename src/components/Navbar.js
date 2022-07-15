@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav>
      {/* eslint-disable-next-line*/}
-    <div className="btn-pkm"><MenuItem onClick={(e) => window.location.href = '/Pokemons'} icon={<img src="https://www.svgrepo.com/show/276264/pokeball-pokemon.svg" width={25} height={25}/>}>Pokemons</MenuItem></div>
+    <div className="btn-pkm"><MenuItem onClick={(e) => window.location.href = '/'} icon={<img src="https://www.svgrepo.com/show/276264/pokeball-pokemon.svg" width={25} height={25}/>}>Pokemons</MenuItem></div>
      {/* eslint-disable-next-line*/}
     <div className="btn-entre"><MenuItem onClick={(e) => window.location.href = '/170965'} icon={/* eslint-disable-next-line*/<img src="https://www.svgrepo.com/show/276268/pokemon-go-pokemon.svg" width={25} height={25}/>}>Entrenador</MenuItem></div>
       <div/>
