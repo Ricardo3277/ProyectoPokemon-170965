@@ -1,7 +1,6 @@
 import React from "react";
 import FavoriteContext from "../contexts/favoriteContext";
 import {
-  Menu,
   MenuItem,
 } from "react-pro-sidebar";
 
@@ -15,8 +14,10 @@ const Navbar = () => {
 
   return (
     <nav>
+     {/* eslint-disable-next-line*/}
     <div><MenuItem onClick={(e) => window.location.href = '/'} icon={<img src="https://www.svgrepo.com/show/276264/pokeball-pokemon.svg" width={25} height={25}/>}>Pokemones</MenuItem></div>
-    <div><MenuItem onClick={(e) => window.location.href = '/170965'} icon={<img src="https://www.svgrepo.com/show/276268/pokemon-go-pokemon.svg" width={25} height={25}/>}>Entrenador</MenuItem></div>
+     {/* eslint-disable-next-line*/}
+    <div><MenuItem onClick={(e) => window.location.href = '/170965'} icon={/* eslint-disable-next-line*/<img src="https://www.svgrepo.com/show/276268/pokemon-go-pokemon.svg" width={25} height={25}/>}>Entrenador</MenuItem></div>
       <div/>
       <div>
         <img src={imgUrl} alt="pokeapi-logo" className="navbar-image" />
