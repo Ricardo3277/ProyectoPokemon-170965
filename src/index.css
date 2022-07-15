@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://fondosmil.com/fondo/21778.jpg');
+    background-image: url('https://images3.alphacoders.com/119/1198002.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -16,14 +16,15 @@ code {
     text-align: center;
     height: 40vh;
     width: 30vw;
-    border: solid #0097DC 5px;
+    border: solid #4744ff 6px;
     border-radius: 15px;
-    background: rgb(196, 239, 186);
-    margin: 10px;
+    background: rgb(116, 149, 211);
+    margin: 50px;
+    padding: 50px;
     box-shadow: -8px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -8px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -8px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    position: relative;
+    position: absolute;
 }
 
 .perfil:hover {
@@ -40,4 +41,5 @@ code {
     border-radius: 15px;
     margin-top: 5%;
     margin-bottom: 5%;
+    border: solid #4744ff 5px;
 }
