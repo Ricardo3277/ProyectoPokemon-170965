@@ -15,13 +15,11 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div />
+    <div><MenuItem onClick={(e) => window.location.href = '/'} icon={<img src="https://www.svgrepo.com/show/276264/pokeball-pokemon.svg" width={25} height={25}/>}>Pokemones</MenuItem></div>
+    <div><MenuItem onClick={(e) => window.location.href = '/170965'} icon={<img src="https://www.svgrepo.com/show/276268/pokemon-go-pokemon.svg" width={25} height={25}/>}>Entrenador</MenuItem></div>
+      <div/>
       <div>
         <img src={imgUrl} alt="pokeapi-logo" className="navbar-image" />
-        <Menu iconShape="square">
-              <MenuItem onClick={(e) => window.location.href = '/'} icon={<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/1200px-Pok%C3%A9_Ball_icon.svg.png" width={25} height={25}/>}>Pokemones</MenuItem>
-              <MenuItem onClick={(e) => window.location.href = '/170965'} icon={<img src="https://www.svgrepo.com/show/276267/pokemon-trainer-pokemon.svg" width={25} height={25}/>}>Usuario</MenuItem>
-            </Menu>
       </div>
       <div>&#10084;&#65039; {favoritePokemons.length}</div>
     </nav>

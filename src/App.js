@@ -97,7 +97,7 @@ export default function App() {
           <Searchbar onSearch={onSearch} />
           {notFound ? (
             <div className="not-found-text">
-              No se encontro
+              No se encontro el Pokem
             </div>
           ) : (
             <Pokedex

@@ -1,13 +1,43 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-image: url('https://fondosmil.com/fondo/21778.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.perfil {
+    text-align: center;
+    height: 40vh;
+    width: 30vw;
+    border: solid #0097DC 5px;
+    border-radius: 15px;
+    background: rgb(196, 239, 186);
+    margin: 10px;
+    box-shadow: -8px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -8px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -8px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    position: relative;
+}
+
+.perfil:hover {
+    transition: all .2s ease-in-out;
+    transform: translateY(+10px);
+}
+
+.center-a {
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-perfil {
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
