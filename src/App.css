@@ -56,7 +56,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 .pokedex-grid {
@@ -89,8 +89,8 @@ nav {
 }
 
 .pokemon-img {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
 }
 
 .pokemon-type {

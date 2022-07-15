@@ -9,10 +9,10 @@ import Perfil from './components/Perfil';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <div className='center-a center-b'>
+    <div >
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<App/>}/>
+          <Route path='/Pokemons' element={<App/>}/>
           <Route path='/pokemon/:id' element={<Pokemon/>} />
           <Route path='/170965' element={<Perfil/>} />
         </Routes>
